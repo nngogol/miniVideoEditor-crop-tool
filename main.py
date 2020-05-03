@@ -1,3 +1,6 @@
+# PUBLIC: https://github.com/nngogol/miniVideoEditor-crop-tool
+# made it 2020-05-03 21:02:46
+
 import PySimpleGUI as sg, os, pyperclip
 from just_utils import *
 cd = os.path.dirname(os.path.abspath(__file__))

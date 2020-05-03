@@ -1,13 +1,25 @@
 # miniVideoEditor-crop-tool
 
-function:
-
-- View Video
+Current function:
+- View Video with slider
 - Make a selection
 - Export selected image
 - View Video
 
+![Gui](https://github.com/nngogol/miniVideoEditor-crop-tool/blob/master/gui.png)
+
+
+# Why?
+
+Maybe you:
+- NEED to cut image from video
+- WANT input dataset for some ML project
+- SEARCH to small icons in video
+- [LEARN PySimpleGUI]
+
 # Install requirements:
+
+We need to install `PySimpleGUI, moviepy and PIL` and edit some files:
 
 ```bash
 pip install Pillow PySimpleGUI moviepy
@@ -27,15 +39,3 @@ $ sudo sed -i -e '/<policy\ domain=\"path\"\ rights=\"none\"\ pattern=\"\@\*\"\/
 python3 main.py
 ```
 
-
-# How it looks (GUI):
-
-![Gui](https://github.com/nngogol/miniVideoEditor-crop-tool/blob/master/gui.png)
-
-
-# Why?
-
-Maybe you:
-- NEED to cut image from video
-- WANT input dataset for some ML project
-- SEARCH to small icons in video
